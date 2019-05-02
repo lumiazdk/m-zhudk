@@ -7,7 +7,6 @@ tags:
   - watch
 categories: 前端
 ---
-<!-- more -->
 
 # vue中watch的详细用法
 ```js
@@ -40,6 +39,7 @@ new Vue({
   } 
 })
 ```
+<!-- more -->
 
 ## deep
 > 当需要监听一个对象的改变时，普通的watch方法无法监听到对象内部属性的改变，只有data中的数据才能够监听到变化，此时就需要deep属性对对象进行深度监听。

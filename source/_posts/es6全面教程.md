@@ -8,7 +8,6 @@ date: 2019-04-28 14:01:54
 ---
 ### 1. 三大基本特征
 >封装, 继承, 多态
-<!-- more -->
 ### ES5中对象的创建
 1. 字面量
 ```js
@@ -36,6 +35,8 @@ student2.study(); //我在学习大数据开发
 
 console.log(student1.study === student2.study); //true
 ```
+<!-- more -->
+
 ### ES5中对象的继承
 1. prototype的原型继承
 ```js

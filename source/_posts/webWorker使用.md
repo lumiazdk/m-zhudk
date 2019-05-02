@@ -8,7 +8,6 @@ categories: 前端
 ---
 > 在平时的运行的javascript脚本都在主线程中执行，如果当前脚本包含复杂的、耗时的代码。那么JavaScript脚本的执行将会被阻塞，甚至整个浏览器都会提示失去响应。
 
-<!-- more -->
 
 > 使用多线程
 
@@ -25,4 +24,4 @@ worker.onmessage = function (event) {
 //省略一些代码。。。
 postMessage(n);
 ```
-
+<!-- more -->

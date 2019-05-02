@@ -8,14 +8,18 @@ subtitle:
 description:
 keywords: 朱定坤的个人博客
 author: zhudk
-language: zh-CN
+language:
+- zh-CN
+- en
+- zh-HK
+- zh-TW
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://zhudk.gitee.io/
 root: /
-permalink: :title.html
+permalink:  p/:abbrlink.html 
 permalink_defaults:
 
 # Directory
@@ -137,6 +141,6 @@ offline:
 gitalk:
   owner: lumiazdk
   admin: lumiazdk
-  repo: m-zhudk
+  repo: comments
   clientID: d58e35ca13c32199b4bb
   clientSecret: 9cd4a5b66cdbb43e0b46641533791fe8c1b6edca

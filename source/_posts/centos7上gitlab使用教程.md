@@ -7,7 +7,6 @@ categories: 工具
 abbrlink: 18159
 date: 2019-04-28 14:01:54
 ---
-<!-- more -->
 ## 1安装gitlab
  ``` shell
 curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash 
@@ -35,6 +34,8 @@ sudo gitlab-ctl start
 ```shell
  sudo gitlab-ctl reconfigure 
 ```
+<!-- more -->
+
 ## 2安装 gitlab-runner
 ## 添加repository
 ```shell

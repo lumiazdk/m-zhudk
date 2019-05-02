@@ -62,7 +62,7 @@ cover:
   # height: half      # full（默认值）: 首页封面占据整个第一屏幕，其他页面占半个屏幕高度， half: 所有页面都封面都只占半个屏幕高度
   title: "zhudk"
   # logo: assets/logo.png    # logo和title只显示一个，若同时设置，则只显示logo
-  # search_placeholder: '搜索'
+  search_placeholder: '搜索'
   # 主页封面菜单
   features:
     - name: 博文
@@ -91,7 +91,7 @@ menu_desktop:
     url: /categories/
     rel: nofollow
   - name: 标签
-    icon: fas fa-hashtag
+    icon: fas fa-tags
     url: /tags/
     rel: nofollow
   - name: 归档
@@ -101,28 +101,33 @@ menu_desktop:
 
 # 手机端导航菜单（从右上角的按钮点击展开）
 menu_mobile:
-  - name: 近期文章
-    icon: fas fa-clock
-    url: /
-  - name: 文章归档
+  - name: 分类
+    icon: fas fa-folder-open
+    url: /categories/
+    rel: nofollow
+  - name: 标签
+    icon: fas fa-tags
+    url: /tags/
+    rel: nofollow
+  - name: 归档
     icon: fas fa-archive
     url: /archives/
     rel: nofollow
-  - name: 开源项目
-    icon: fas fa-code-branch
-    url: projects/
-  - name: 我的友链
-    icon: fas fa-link
-    url: friends/
-    rel: nofollow
-  - name: 主题文档
-    icon: fas fa-book
-    url: https://xaoxuu.com/wiki/material-x/
-    rel: nofollow
-  - name: 关于小站
-    icon: fas fa-info-circle
-    url: about/
-    rel: nofollow
+  # - name: 开源项目
+  #   icon: fas fa-code-branch
+  #   url: projects/
+  # - name: 我的友链
+  #   icon: fas fa-link
+  #   url: friends/
+  #   rel: nofollow
+  # - name: 主题文档
+  #   icon: fas fa-book
+  #   url: https://xaoxuu.com/wiki/material-x/
+  #   rel: nofollow
+  # - name: 关于小站
+  #   icon: fas fa-info-circle
+  #   url: about/
+  #   rel: nofollow
 
 # 默认的meta信息，文章中没有配置则按照这里的配置来显示，设置为false则不显示
 # 其中，title只在header中有效，music和thumbnail无需在这里设置，文章中有则显示
@@ -137,9 +142,9 @@ body: [article, comments]
 # 侧边栏小部件，默认按下面给定的顺序全部显示，文章中还可以自定义显示一部分以及顺序
 sidebar:
   - widget: related_posts
-  # - widget: author
+  - widget: author
   #   avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
-  #   social: true
+    social: true
   - widget: toc
   # - widget: grid
   #   icon: fas fa-map-signs
@@ -184,12 +189,12 @@ sidebar:
     title: "最近在听"
     more:
       icon: far fa-heart
-      url: https://music.163.com/#/user/home?id=63035382
+      url: https://music.163.com/#/user/home?id=65187747
       rel: external nofollow noopener noreferrer
       target: _blank
     server: netease   # netease（网易云音乐）tencent（QQ音乐） xiami（虾米） kugou（酷狗）
     type: playlist    # song （单曲） album （专辑） playlist （歌单） search （搜索）
-    id: 2615636388     # 歌曲/专辑/歌单 ID
+    id: 67914480     # 歌曲/专辑/歌单 ID
 
 
 # 社交信息
@@ -231,12 +236,12 @@ share:
 ############################### 评论系统 ###############################
 # disqus_shortname: 要使用哪个请复制到根目录配置文件！
 # livere_uid: 要使用哪个请复制到根目录配置文件！
-gitalk:
-  owner: lumiazdk
-  admin: [lumiazdk]
-  repo: m-zhudk
-  clientID: d58e35ca13c32199b4bb
-  clientSecret: 9cd4a5b66cdbb43e0b46641533791fe8c1b6edca
+# gitalk:
+#   owner: lumiazdk
+#   admin: [lumiazdk]
+#   repo: m-zhudk
+#   clientID: d58e35ca13c32199b4bb
+#   clientSecret: 9cd4a5b66cdbb43e0b46641533791fe8c1b6edca
 # leancloud: 要使用哪个请复制到根目录配置文件！
 #   app_id: 你的appId
 #   app_key: 你的appKey

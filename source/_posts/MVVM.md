@@ -7,7 +7,6 @@ date: 2019-04-28 14:01:54
 ---
 ## 为什么要手写MVVM?
 > 因为我要在公司项目中使用，哈哈哈哈哈！
-<!-- more -->
 ## 数据劫持
 ```js
 class Observer {
@@ -54,6 +53,8 @@ class Observer {
     }
 }
 ```
+<!-- more -->
+
 ## 编译
 ```js
 CompileUtil = {};

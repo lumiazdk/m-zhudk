@@ -5,13 +5,18 @@ tags:
   - javaScript
   - 画江湖
 top: true
-categories: 前端
+categories: [前端,画江湖]
 abbrlink: 43985
 date: 2019-04-29 16:24:25
+music:
+  enable: true      # true（文章内和文章列表都显示） internal（只在文章内显示）
+  server: netease   # netease（网易云音乐）tencent（QQ音乐） xiami（虾米） kugou（酷狗）
+  type: song        # song （单曲） album （专辑） playlist （歌单） search （搜索）
+  id: 1349292048      # 歌曲/专辑/歌单 ID
+  autoplay: true
 ---
 ## 结论
 > ``this`` 的指向，是在调用函数时根据执行上下文所动态确定的。
-<!-- more -->
 
 ## “死记硬背”
 > - 在函数体中，简单调用该函数时（非显式/隐式绑定下），严格模式下 ``this`` 绑定到 ``undefined``，否则绑定到全局对象 ``window／global``；
@@ -19,6 +24,9 @@ date: 2019-04-29 16:24:25
 - 一般由 ``call/apply/bind`` 方法显式调用，绑定到指定参数的对象上；
 - 一般由上下文对象调用，绑定在该对象上；
 - 箭头函数中，根据外层上下文绑定的 ``this`` 决定 ``this`` 指向。
+
+<!-- more -->
+
 ## 实战例题分析
 ### 例题组合 1：全局环境下的 ``this``
 > 这种情况相对简单直接，函数在浏览器全局环境中被简单调用，非严格模式下 ``this`` 指向 ``window``；在 ``use strict`` 指明严格模式的情况下就是 ``undefined``。我们来看例题，请描述打印结果：

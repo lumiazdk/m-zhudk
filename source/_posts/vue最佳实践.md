@@ -7,7 +7,6 @@ abbrlink: 11797
 date: 2019-04-29 14:01:54
 ---
 > vue日常记录
-<!-- more -->
 
 ## 释放资源
 > 善用 `` destory `` 释放原生事件、第三方组件、全局事件总线等。
@@ -29,6 +28,8 @@ export default {
     }
 }
 ```
+<!-- more -->
+
 ## 数据请求
 ```js
 export default {
