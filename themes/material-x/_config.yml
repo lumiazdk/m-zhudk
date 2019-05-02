@@ -145,6 +145,7 @@ sidebar:
   - widget: author
   #   avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
     social: true
+    jinrishici: 柳暗花明又一村
   - widget: toc
   # - widget: grid
   #   icon: fas fa-map-signs

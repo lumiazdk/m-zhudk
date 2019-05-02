@@ -11,7 +11,6 @@ categories: 前端
 
 > 配合element-ui的loading 使用
 
-<!-- more -->
 ```js
 import axios from 'axios'
 

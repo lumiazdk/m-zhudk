@@ -24,4 +24,3 @@ worker.onmessage = function (event) {
 //省略一些代码。。。
 postMessage(n);
 ```
-<!-- more -->
