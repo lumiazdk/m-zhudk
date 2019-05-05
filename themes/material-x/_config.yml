@@ -50,7 +50,7 @@ backstretch:
   duration: 6000 # 持续时间（毫秒）
   fade: 1500     # 渐变（毫秒）
   images:
-    - https://img.vim-cn.com/f6/78aed21213230b9220f310f9ea6c822b011846.jpg
+    # - https://img.vim-cn.com/f6/78aed21213230b9220f310f9ea6c822b011846.jpg
     - https://img.vim-cn.com/d5/b004c81a13aea401375d03b1258ecadbfcbaa7.jpg
     - https://img.vim-cn.com/4c/8e7294998989454b2dcd2624373d5a699c4414.jpg
 
