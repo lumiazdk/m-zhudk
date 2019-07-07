@@ -65,5 +65,6 @@ sudo gitlab-ctl start
 ![](https://res.cloudinary.com/lumiazdk/image/upload/v1554635100/le8faa2sg5nrgci7gmvg.png)
 </fancybox>
 
-
+# 运行
+> sudo gitlab-ci-multi-runner run
 >配置成功！
