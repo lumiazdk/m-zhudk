@@ -83,7 +83,7 @@ theme: material-x
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@gitee.com:zhudk/zhudk.git
+  repository: https://gitee.com/zhudk/zhudk.git
   branch: master
 
 neat_enable: true
